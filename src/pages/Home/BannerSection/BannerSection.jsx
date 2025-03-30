@@ -26,39 +26,47 @@ const BannerSection = () => {
           <div className="bg-white lg:rounded-full  rounded-tl-[30px] rounded-tr-[30px] max-w-4xl mx-auto p-6">
             <form className="w-full">
               <div className="flex flex-wrap justify-between space-y-2 md:space-y-0 md:flex-row">
+                {/* LOCATION FIELD */}
                 <div className="relative w-full md:w-72">
-                  <select
-                    id="id-01"
-                    name="id-01"
-                    required
-                    className="peer relative h-[40px] max-w-[280px] w-full appearance-none border-b-2 lg:border-r-2 lg:border-b-0 border-slate-300 px-4 text-sm text-[#1942BB] font-bold outline-none transition-all autofill:bg-white focus:border-emerald-500 focus-visible:outline-none focus:focus-visible:outline-none disabled:cursor-not-allowed disabled:bg-slate-50 disabled:text-slate-400"
-                  >
-                    <option value="" disabled selected className=" ">
-                      CHOOSE LOCATION
-                    </option>
-                    <option value="1">Option 1</option>
-                    <option value="2">Option 2</option>
-                    <option value="3">Option 3</option>
-                  </select>
+                  <div className="relative w-[280px]">
+                    <select
+                      id="id-01"
+                      name="id-01"
+                      required
+                      className="peer h-[40px] w-full appearance-none border-b-2 lg:border-r-2 lg:border-b-0 border-slate-300 px-4 pr-10 text-sm text-[#1942BB] font-bold outline-none transition-all autofill:bg-white focus:border-emerald-500 focus-visible:outline-none disabled:cursor-not-allowed disabled:bg-slate-50 disabled:text-slate-400"
+                    >
+                      <option value="" disabled selected>
+                        CHOOSE LOCATION
+                      </option>
+                      <option value="1">Option 1</option>
+                      <option value="2">Option 2</option>
+                      <option value="3">Option 3</option>
+                    </select>
+                    <i className="fa fa-long-arrow-down absolute right-3 top-1/2 -translate-y-1/2 text-[#1942BB] pointer-events-none"></i>
+                  </div>
                 </div>
 
-                <div className="relative w-full md:w-72 ">
-                  <select
-                    id="id-02"
-                    name="id-02"
-                    required
-                    className="peer relative h-[40px] max-w-[280px] w-full appearance-none lg:border-r-2 border-slate-300 px-4 text-sm text-[#1942BB] font-bold outline-none transition-all autofill:bg-white focus:border-emerald-500 focus-visible:outline-none focus:focus-visible:outline-none disabled:cursor-not-allowed disabled:bg-slate-50 disabled:text-slate-400"
-                  >
-                    <option value="" disabled selected>
-                      CHOOSE UNIT
-                    </option>
-                    <option value="1">Option 1</option>
-                    <option value="2">Option 2</option>
-                    <option value="3">Option 3</option>
-                  </select>
+                {/* UNIT FIELD */}
+                <div className="relative w-full md:w-72">
+                  <div className="relative w-[280px]">
+                    <select
+                      id="id-02"
+                      name="id-02"
+                      required
+                      className="peer h-[40px] w-full appearance-none  lg:border-r-2 lg:border-b-0 border-slate-300 px-4 pr-10 text-sm text-[#1942BB] font-bold outline-none transition-all autofill:bg-white focus:border-emerald-500 focus-visible:outline-none disabled:cursor-not-allowed disabled:bg-slate-50 disabled:text-slate-400"
+                    >
+                      <option value="" disabled selected>
+                        CHOOSE UNIT
+                      </option>
+                      <option value="1">Option 1</option>
+                      <option value="2">Option 2</option>
+                      <option value="3">Option 3</option>
+                    </select>
+                    <i className="fa fa-long-arrow-down absolute right-3 top-1/2 -translate-y-1/2 text-[#1942BB] pointer-events-none"></i>
+                  </div>
                 </div>
 
-                {/* Button for mobile devices */}
+                {/* BUTTON */}
                 <div className="w-full md:w-auto flex justify-center md:justify-start">
                   <button className="lg:max-w-[250px] w-full rounded-full bg-[#1C2253] text-white py-3 px-8 mt-4 md:mt-0">
                     Find Your Unit
