@@ -5,7 +5,7 @@ import Insurantransport from "../../../assets/Insurantransport.png";
 import Insurance2 from "../../../assets/insurance2.png";
 const LocationSection = () => {
     return (
-      <div className="my-10">
+      <div className="my-10 px-2 lg:px-0">
         <div>
           <h2 className="font-bold text-[25px] lg:text-[40px] leading[36px] text-[#231ADF] text-center">
             Storage at Safe Store
