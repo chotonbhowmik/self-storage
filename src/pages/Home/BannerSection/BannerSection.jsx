@@ -27,43 +27,48 @@ const BannerSection = () => {
             <form className="w-full">
               <div className="flex flex-wrap justify-between space-y-2 md:space-y-0 md:flex-row">
                 {/* LOCATION FIELD */}
-                <div className="relative w-full md:w-72">
-                  <div className="relative w-[280px]">
-                    <select
-                      id="id-01"
-                      name="id-01"
-                      required
-                      className="peer h-[40px] w-full appearance-none border-b-2 lg:border-r-2 lg:border-b-0 border-slate-300 px-4 pr-10 text-sm text-[#1942BB] font-bold outline-none transition-all autofill:bg-white focus:border-emerald-500 focus-visible:outline-none disabled:cursor-not-allowed disabled:bg-slate-50 disabled:text-slate-400"
-                    >
-                      <option value="" disabled selected>
-                        CHOOSE LOCATION
-                      </option>
-                      <option value="1">Option 1</option>
-                      <option value="2">Option 2</option>
-                      <option value="3">Option 3</option>
-                    </select>
-                    <i className="fa fa-long-arrow-down absolute right-3 top-1/2 -translate-y-1/2 text-[#1942BB] pointer-events-none"></i>
-                  </div>
+                <div className="relative z-0 w-full md:w-72 group">
+                  <select
+                    id="location"
+                    name="location"
+                    required
+                    className="peer block w-full appearance-none border-b-2 lg:border-r-2 lg:border-b-0 border-slate-300 bg-transparent px-4 pr-10 pt-4 pb-1 text-sm font-bold text-[#1942BB] focus:border-blue-600 focus:outline-none focus:ring-0"
+                  >
+                    <option value="1" selected>
+                      Option 1
+                    </option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                  </select>
+                  <label
+                    htmlFor="location"
+                    className="absolute text-sm text-gray-500 duration-300 transform -translate-y-3 scale-75 top-1 left-4 z-0 origin-[0] peer-placeholder-shown:translate-y-2.5 peer-placeholder-shown:scale-100 peer-focus:scale-75 peer-focus:-translate-y-3 peer-focus:text-blue-600"
+                  >
+                    CHOOSE LOCATION
+                  </label>
+                  <i className="fa fa-long-arrow-down absolute right-3 top-1/2 -translate-y-1/2 text-[#1942BB] pointer-events-none"></i>
                 </div>
 
-                {/* UNIT FIELD */}
-                <div className="relative w-full md:w-72">
-                  <div className="relative w-[280px]">
-                    <select
-                      id="id-02"
-                      name="id-02"
-                      required
-                      className="peer h-[40px] w-full appearance-none  lg:border-r-2 lg:border-b-0 border-slate-300 px-4 pr-10 text-sm text-[#1942BB] font-bold outline-none transition-all autofill:bg-white focus:border-emerald-500 focus-visible:outline-none disabled:cursor-not-allowed disabled:bg-slate-50 disabled:text-slate-400"
-                    >
-                      <option value="" disabled selected>
-                        CHOOSE UNIT
-                      </option>
-                      <option value="1">Option 1</option>
-                      <option value="2">Option 2</option>
-                      <option value="3">Option 3</option>
-                    </select>
-                    <i className="fa fa-long-arrow-down absolute right-3 top-1/2 -translate-y-1/2 text-[#1942BB] pointer-events-none"></i>
-                  </div>
+                <div className="relative z-0 w-full md:w-72 group">
+                  <select
+                    id="location"
+                    name="location"
+                    required
+                    className="peer block w-full appearance-none border-b-2 lg:border-r-2 lg:border-b-0 border-slate-300 bg-transparent px-4 pr-10 pt-4 pb-1 text-sm font-bold text-[#1942BB] focus:border-blue-600 focus:outline-none focus:ring-0"
+                  >
+                    <option value="1" selected>
+                      Option 1
+                    </option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                  </select>
+                  <label
+                    htmlFor="location"
+                    className="absolute text-sm text-gray-500 duration-300 transform -translate-y-3 scale-75 top-1 left-4 z-0 origin-[0] peer-placeholder-shown:translate-y-2.5 peer-placeholder-shown:scale-100 peer-focus:scale-75 peer-focus:-translate-y-3 peer-focus:text-blue-600"
+                  >
+                    CHOOSE UNIT
+                  </label>
+                  <i className="fa fa-long-arrow-down absolute right-3 top-1/2 -translate-y-1/2 text-[#1942BB] pointer-events-none"></i>
                 </div>
 
                 {/* BUTTON */}
