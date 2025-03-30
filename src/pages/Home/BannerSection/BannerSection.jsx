@@ -6,8 +6,10 @@ const BannerSection = () => {
     <div
       className="hero grid  "
       style={{
-        backgroundImage: `url(${BannerBg}), radial-gradient(circle, rgba(51, 116, 173, 0.32), rgba(0, 0, 0, 1))`,
-        gridTemplateColumns: "1fr auto", // Two columns, one for content and one for the star image
+        backgroundImage: `radial-gradient(circle, rgba(51, 116, 173, 0.32), rgba(0, 0, 0, 1)), url(${BannerBg})`,
+        gridTemplateColumns: "1fr auto",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     >
       <div className="hero-overlay "></div>

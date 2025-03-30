@@ -9,16 +9,16 @@ const ContactForm = () => {
 
     emailjs
       .sendForm(
-        "service_fwcea6j", // ✅ Your EmailJS Service ID
-        "template_l62xl5i", // ✅ Your EmailJS Template ID
+        "service_fwcea6j", 
+        "template_l62xl5i", 
         form.current,
-        "xndWdw_kP5TiCZgYu" // ✅ Your EmailJS Public Key
+        "xndWdw_kP5TiCZgYu" 
       )
       .then(
         (result) => {
           console.log("Message sent:", result.text);
           alert("Message sent successfully!");
-          form.current.reset(); // optional: clear the form
+          form.current.reset(); 
         },
         (error) => {
           console.error("Email error:", error.text);

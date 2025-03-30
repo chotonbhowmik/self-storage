@@ -133,7 +133,7 @@ const Testimonial = () => {
               </div>
             </div>
 
-            <div className="w-full lg:w-2/3">
+            <div className="w-full lg:w-2/3 mt-5 lg:mt-0">
               <div className="glide-01 relative w-full">
                 {/*    <!-- Slides --> */}
                 <div className="overflow-hidden" data-glide-el="track">
