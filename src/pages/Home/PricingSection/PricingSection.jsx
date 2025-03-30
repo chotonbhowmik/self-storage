@@ -143,7 +143,7 @@ const PricingSection = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row gap-4 mt-11 justify-center text-center">
+        <div className="flex flex-col lg:flex-row gap-4 mt-11 justify-center text-center px-5 lg:px-0">
           {/* card 1 */}
           <div className=" w-full lg:w-[450px] ">
             <div className="bg-[#274EFF] w-80 rounded-tl-[30px] rounded-tr-[30px] text-white mx-auto text-center">
