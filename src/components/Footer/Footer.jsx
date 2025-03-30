@@ -6,7 +6,7 @@ const Footer = () => {
       <>
         <div className="max-w-7xl mx-auto pt-10 px-5">
           <div className="flex flex-col lg:flex-row gap-8 lg:gap-0">
-            <div className="w-full sm:w-1/2 lg:w-1/4 flex justify-center lg:justify-start">
+            <div className="w-full sm:w-1/2 lg:w-1/4 flex  lg:justify-start">
               <img src={FooterLogo} className="w-40" alt="Footer Logo" />
             </div>
             <div className="w-full sm:w-1/2 lg:w-1/4">
