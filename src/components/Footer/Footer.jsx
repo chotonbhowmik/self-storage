@@ -10,30 +10,30 @@ const Footer = () => {
               <img src={FooterLogo} className="w-40" alt="Footer Logo" />
             </div>
             <div className="w-full sm:w-1/2 lg:w-1/4">
-              <h2 className="text-[#0C094E] font-bold text-[28px]">Pages</h2>
+              <h2 className="text-[#0C094E] font-bold text-[28px]">Seiten</h2>
               <div className="pt-5 space-y-2">
                 <p className="text-[18px] font-normal text-[#0C094E]">
-                  Space Calculator
+                  Raumfahrt-Rechner
                 </p>
                 <p className="text-[18px] font-normal text-[#0C094E]">
-                  Mortara Square
+                  Mortara-Platz
                 </p>
                 <p className="text-[18px] font-normal text-[#0C094E]">
-                  Rent Storage Space
+                  Lagerraum mieten
                 </p>
                 <p className="text-[18px] font-normal text-[#0C094E]">
-                  Terms and Conditions
+                  Bedingungen und Konditionen
                 </p>
                 <p className="text-[18px] font-normal text-[#0C094E]">
-                  Data Protection
+                  Datenschutz
                 </p>
                 <p className="text-[18px] font-normal text-[#0C094E]">
-                  Imprint
+                  Impressum
                 </p>
               </div>
             </div>
             <div className="w-full sm:w-1/2 lg:w-1/4">
-              <h2 className="text-[#0C094E] font-bold text-[28px]">contact</h2>
+              <h2 className="text-[#0C094E] font-bold text-[28px]">Kontakt</h2>
               <div className="pt-5 space-y-2">
                 <p className="text-[18px] font-normal text-[#0C094E]">
                   Tel: 🇦🇹 +43 699 177 22 661
@@ -42,19 +42,19 @@ const Footer = () => {
                   office@safestore.at
                 </p>
                 <p className="text-[18px] font-normal text-[#0C094E]">
-                  Mortara Platz
+                  Mortara-Platz
                 </p>
                 <p className="text-[18px] font-normal text-[#0C094E]">
                   Dresdnerstrasse 122
                 </p>
                 <p className="text-[18px] font-normal text-[#0C094E]">
-                  1200 Vienna, Austria
+                  1200 Wien, Österreich
                 </p>
               </div>
             </div>
             <div className="w-full sm:w-1/2 lg:w-1/4">
               <h2 className="text-[#0C094E] font-bold text-[28px]">
-                Follow us
+                Folgen Sie uns
               </h2>
               <div className="pt-5 space-y-2">
                 <div className="flex flex-row gap-2">
@@ -75,7 +75,9 @@ const Footer = () => {
           </div>
         </div>
         <hr className="my-3"></hr>
-        <p className="text-[#0C094E] font-normal text-[18px] text-center py-5">Copyright © 2025 FOXBOX Selfstorage</p>
+        <p className="text-[#0C094E] font-normal text-[18px] text-center py-5">
+          Copyright © 2025 FOXBOX Selfstorage
+        </p>
       </>
     );
 };

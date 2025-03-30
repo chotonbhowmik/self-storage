@@ -9,10 +9,10 @@ const FastEasy = () => {
       <div className="bg-[#231ADF] py-10">
         <div className="pb-14">
           <h2 className="font-bold text-[25px] lg:text-[40px] leading[36px] text-[#fff] text-center">
-            Fast. Easy. Around the clock.
+            Schnell. Einfach. Rund um die Uhr.
           </h2>
           <p className="font-bold text-[25px] lg:text-[40px] leading[36px] text-[#0C094E] text-center ">
-            In just 3 minutes to your own storage space:
+            In nur 3 Minuten zu Ihrem eigenen Lagerraum:
           </p>
         </div>
         <div className="mx-auto max-w-7xl flex flex-col lg:flex-row gap-4">
@@ -21,11 +21,11 @@ const FastEasy = () => {
             {/*  <!-- Body--> */}
             <div className="p-6">
               <h3 className="mb-4 text-[24px] font-semibold text-[#fff]">
-                Select Storage Space
+                Speicherplatz auswählen
               </h3>
               <p className="text-[#fff] text-[18px] font-normal">
-                With just a few clicks you can find suitable storage space at
-                SafeStore.
+                Mit nur wenigen Klicks finden Sie den passenden Speicherplatz
+                bei SafeStore.
               </p>
             </div>
           </div>
@@ -35,11 +35,11 @@ const FastEasy = () => {
 
             <div className="p-6">
               <h3 className="mb-4 text-[24px] font-semibold text-[#fff]">
-                Book, Anytime
+                Buchen, Jederzeit
               </h3>
               <p className="text-[#fff] text-[18px] font-normal">
-                Enter your contact details and credit card – done! Your storage
-                space is ready
+                Geben Sie Ihre Kontaktinformationen und Ihre Kreditkarte ein -
+                fertig! Ihr Speicherplatz Platz ist bereit
               </p>
             </div>
           </div>
@@ -49,11 +49,11 @@ const FastEasy = () => {
 
             <div className="p-6">
               <h3 className="mb-4 text-[24px] font-semibold text-[#fff]">
-                Easy storage
+                Einfache Lagerung
               </h3>
               <p className="text-[#fff] text-[18px] font-normal">
-                Access codes and directions will be sent by email on the day of
-                moving in.
+                Die Zugangscodes und eine Wegbeschreibung werden am Tag des
+                Einzugs per E-Mail verschickt. Einzugs.
               </p>
             </div>
           </div>

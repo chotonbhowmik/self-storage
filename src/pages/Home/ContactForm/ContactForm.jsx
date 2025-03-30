@@ -32,10 +32,10 @@ const ContactForm = () => {
       <div className="max-w-3xl mx-auto">
         <div className="py-10">
           <h2 className="font-bold text-[25px] lg:text-[40px] leading-[36px] text-[#fff] text-center">
-            Write to us!
+            Schreiben Sie uns!
           </h2>
           <p className="font-bold text-[25px] lg:text-[40px] leading-[36px] text-[#0C094E] text-center pt-5">
-            We will respond as quickly as possible.
+            Wir werden so schnell wie möglich antworten.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ const ContactForm = () => {
                 name="name"
                 required
                 className="input w-full bg-transparent border border-white outline-none text-white placeholder-white"
-                placeholder="Your Name"
+                placeholder="Ihr Name"
               />
             </fieldset>
           </div>
@@ -66,7 +66,7 @@ const ContactForm = () => {
                   name="email"
                   required
                   className="input w-full bg-transparent border border-white text-white placeholder-white"
-                  placeholder="Enter your email"
+                  placeholder="Ihre E-Mail eingeben"
                 />
               </fieldset>
             </div>
@@ -74,13 +74,13 @@ const ContactForm = () => {
             <div className="w-full lg:w-1/2">
               <fieldset className="fieldset">
                 <legend className="fieldset-legend text-[24px] text-white pb-2">
-                  Phone number (optional)
+                  Telefonnummer (fakultativ)
                 </legend>
                 <input
                   type="text"
                   name="phone"
                   className="input w-full bg-transparent border border-white text-white placeholder-white"
-                  placeholder="Enter your phone number"
+                  placeholder="Geben Sie Ihre Rufnummer ein"
                 />
               </fieldset>
             </div>
@@ -89,13 +89,13 @@ const ContactForm = () => {
           <div className="pt-4">
             <fieldset className="fieldset">
               <legend className="fieldset-legend text-[24px] text-white pb-2">
-                Your message
+                Ihre Nachricht
               </legend>
               <textarea
                 name="message"
                 required
                 className="textarea h-24 w-full bg-transparent placeholder-white border border-white text-white"
-                placeholder="Message"
+                placeholder="Nachricht"
               ></textarea>
             </fieldset>
           </div>
@@ -105,7 +105,7 @@ const ContactForm = () => {
               type="submit"
               className="bg-white text-[#0C094E] font-bold py-2 px-6 rounded-full hover:bg-blue-600 transition"
             >
-              Send Message
+              Nachricht senden
               <i className="fa fa-long-arrow-right pl-2" aria-hidden="true"></i>
             </button>
           </div>

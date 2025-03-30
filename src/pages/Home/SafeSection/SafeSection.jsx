@@ -8,10 +8,10 @@ const SafeSection = () => {
     <div className="py-10">
       <div className="pb-14">
         <h2 className="font-bold text-[25px] lg:text-[40px] leading[36px] text-[#231ADF] text-center">
-          Safe, high quality, fast
+          Sicher, hochwertig, schnell
         </h2>
         <p className="font-bold text-[25px] lg:text-[40px] leading[36px] text-[#0C094E] text-center ">
-          storage space for your space needs
+          Lagerraum für Ihren Platzbedarf
         </p>
       </div>
       <div className="mx-auto max-w-7xl flex flex-col lg:flex-row gap-4">
@@ -20,11 +20,11 @@ const SafeSection = () => {
           {/*  <!-- Body--> */}
           <div className="p-6">
             <h3 className="mb-4 text-[24px] font-semibold text-[#231ADF]">
-              Book, move in, done!
+              Buchen, Einziehen, fertig!
             </h3>
             <p className="text-[#0C094E] text-[18px] font-normal">
-              At SafeStore you can book storage space online. You have immediate
-              access at any time.
+              Bei SafeStore bucht man Lagerraum online. Zutritt haben Sie sofort
+              & jederzeit.
             </p>
           </div>
         </div>
@@ -34,10 +34,10 @@ const SafeSection = () => {
 
           <div className="p-6">
             <h3 className="mb-4 text-[24px] font-semibold text-[#231ADF]">
-              Optimal storage conditions
+              Optimale Lagerbedingungen
             </h3>
             <p className="text-[#0C094E] text-[18px] font-normal">
-              Our storage rooms are dry and heated – good for storage.
+              Unsere Lagerräume sind trocken und geheizt – gut zum Lagern.
             </p>
           </div>
         </div>
@@ -47,10 +47,11 @@ const SafeSection = () => {
 
           <div className="p-6">
             <h3 className="mb-4 text-[24px] font-semibold text-[#231ADF]">
-              24/7 video surveillance
+              24/7 Videoüberwacht
             </h3>
             <p className="text-[#0C094E] text-[18px] font-normal">
-              Cameras and regular checks in the warehouse ensure safety.
+              Kameras und regelmässige Kontrollen im Lager sorgen für
+              Sicherheit.
             </p>
           </div>
         </div>
@@ -60,32 +61,34 @@ const SafeSection = () => {
           <div className="flex flex-row gap-2">
             <img src={correct} className="w-[30px] h-[25px] object-fit"></img>
             <p className="text-[#EEEEEE] font-bold text[20px]">
-              24/7 Video Survaillance
+              24/7 Video-Überwachung
             </p>
           </div>
 
           <div className="flex flex-row gap-2">
             <img src={correct} className="w-[30px] h-[25px] object-fit"></img>
-            <p className="text-[#EEEEEE] font-bold text[20px]">Best Price</p>
+            <p className="text-[#EEEEEE] font-bold text[20px]">Bester Preis</p>
           </div>
 
           <div className="flex flex-row gap-2">
             <img src={correct} className="w-[30px] h-[25px] object-fit"></img>
             <p className="text-[#EEEEEE] font-bold text[20px]">
-              Anytime Access
+              Jederzeitiger Zugang
             </p>
           </div>
 
           <div className="flex flex-row gap-2">
             <img src={correct} className="w-[30px] h-[25px] object-fit"></img>
             <p className="text-[#EEEEEE] font-bold text[20px]">
-              Optimal Storage Conditions
+              Optimale Lagerungsbedingungen
             </p>
           </div>
 
           <div className="flex flex-row gap-2">
             <img src={correct} className="w-[30px] h-[25px] object-fit"></img>
-            <p className="text-[#EEEEEE] font-bold text[20px]">Insured Units</p>
+            <p className="text-[#EEEEEE] font-bold text[20px]">
+              Versicherte Einheiten
+            </p>
           </div>
         </div>
       </div>

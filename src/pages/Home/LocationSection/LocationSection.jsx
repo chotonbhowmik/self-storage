@@ -8,10 +8,10 @@ const LocationSection = () => {
       <div className="my-10 px-2 lg:px-0">
         <div>
           <h2 className="font-bold text-[25px] lg:text-[40px] leading[36px] text-[#231ADF] text-center">
-            Storage at Safe Store
+            Lagerung im Safe Store
           </h2>
           <p className="font-bold text-[25px] lg:text-[40px] leading[36px] text-[#0C094E] text-center ">
-            Our location in Vienna-Brigittenau:
+            Unser Standort in Wien-Brigittenau:
           </p>
         </div>
 
@@ -21,10 +21,10 @@ const LocationSection = () => {
             {/*  <!-- Body--> */}
             <div className="p-6">
               <h3 className="mb-4 text-[24px] font-semibold text-[#231ADF]">
-                Insurance
+                Versicherung
               </h3>
               <p className="text-[#0C094E] text-[18px] font-normal">
-                Your stored items are insured up to €5,000.
+                Ihre eingelagerten Gegenstände sind bis zu 5.000 € versichert.
               </p>
             </div>
           </div>
@@ -34,11 +34,11 @@ const LocationSection = () => {
             {/*  <!-- Body--> */}
             <div className="p-6">
               <h3 className="mb-4 text-[24px] font-semibold text-[#231ADF]">
-                access control
+                Zugangskontrolle
               </h3>
               <p className="text-[#0C094E] text-[18px] font-normal">
-                Your PIN code will be sent to you by email on the day you move
-                in.
+                Ihr PIN-Code wird Ihnen am Tag Ihres Einzugs per E-Mail
+                zugesandt. Einzug.
               </p>
             </div>
           </div>
@@ -48,10 +48,10 @@ const LocationSection = () => {
             {/*  <!-- Body--> */}
             <div className="p-6">
               <h3 className="mb-4 text-[24px] font-semibold text-[#231ADF] text-left">
-                Insurantransport aidsce
+                Versicherungstransporthilfence
               </h3>
               <p className="text-[#0C094E] text-[18px] font-normal">
-                Your stored items are insured up to €5,000.
+                Ihre eingelagerten Gegenstände sind bis zu 5.000 € versichert.
               </p>
             </div>
           </div>
@@ -61,10 +61,10 @@ const LocationSection = () => {
             {/*  <!-- Body--> */}
             <div className="p-6">
               <h3 className="mb-4 text-[24px] font-semibold text-[#231ADF]">
-                Insurance
+                Versicherung
               </h3>
               <p className="text-[#0C094E] text-[18px] font-normal">
-                Barrier-free access directly from the street.
+                Barrierefreier Zugang direkt von der Straße aus.
               </p>
             </div>
           </div>

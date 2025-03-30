@@ -10,43 +10,43 @@ import Box from "../../../assets/box.png";
 
 const galleryData = [
   {
-    category: "Living Room",
+    category: "Wohnbereich",
     image: Insurance,
-    title: "Living Room Setup",
+    title: "Wohnzimmer Einrichtung",
   },
   {
-    category: "Living Room",
+    category: "Wohnbereich",
     image: Chair,
-    title: "Modern Chair",
+    title: "Moderner Stuhl",
   },
   {
-    category: "Living Room",
+    category: "Wohnbereich",
     image: LargeDiningTable,
-    title: "Large Dining Table",
+    title: "Großer Esstisch",
   },
   {
-    category: "Living Room",
+    category: "Wohnbereich",
     image: SmallDiningTable,
-    title: "Small Dining Table",
+    title: "Kleiner Esstisch",
   },
   {
-    category: "Room",
+    category: "Zimmer",
     image: Access,
-    title: "Cozy Room Design",
+    title: "Gemütliche Zimmergestaltung",
   },
   {
-    category: "Kitchens",
+    category: "Küchen",
     image: Insurantransport,
-    title: "Modern Kitchen Look",
+    title: "Moderner Küchenlook",
   },
   {
-    category: "Other",
+    category: "Andere",
     image: Insurance2,
-    title: "Storage and More",
+    title: "Lagerung und mehr",
   },
 ];
 
-const categories = ["Living Room", "Room", "Kitchens", "Other"];
+const categories = ["Wohnbereich", "Zimmer", "Küchen", "Andere"];
 
 const SpaceCalculator = () => {
   const [selectedCategory, setSelectedCategory] = useState("Living Room");
@@ -60,10 +60,10 @@ const SpaceCalculator = () => {
       {/* Title Section */}
       <div className="bg-[#F8F8F8] py-10">
         <h2 className="font-bold text-[25px] lg:text-[40px] leading-[36px] text-[#231ADF] text-center">
-          space calculator
+          Raumfahrt-Rechner
         </h2>
         <p className="font-bold text-[25px] lg:text-[40px] leading-[36px] text-[#0C094E] text-center pt-5">
-          Which box fits?
+          Welche Box passt?
         </p>
       </div>
 
@@ -117,10 +117,10 @@ const SpaceCalculator = () => {
               alt="Chair"
             />
             <h3 className="font-bold text-[32px] text-[#0C094E] mt-4">
-              STOCK NOW
+              JETZT AUF LAGER
             </h3>
             <p className="font-semibold text-[#0C094E] mt-2">
-              Let's get started! Select the items you want to store.
+              Los geht's! Wählen Sie die Artikel aus, die Sie speichern möchten.
             </p>
           </div>
         </div>
