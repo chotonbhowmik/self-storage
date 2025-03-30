@@ -5,3 +5,10 @@
   background-color: transparent !important;
   color: black;
 }
+.input:focus, .input:focus-within{
+  border-color: none !important;
+  outline-style: none !important;
+      outline-width: none !important;
+    outline-offset: none !important;
+    outline-color:none !important;
+}

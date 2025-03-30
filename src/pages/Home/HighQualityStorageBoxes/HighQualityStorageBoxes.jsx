@@ -43,7 +43,6 @@ const HighQualityStorageBoxes = () => {
                   <div className="flex flex-row items-center mt-5 ">
                     <img src={Quality} alt="Quality" />
                     <h3 className="ml-2">
-                   
                       Loading and unloading in dry conditions
                     </h3>
                   </div>
@@ -65,7 +64,7 @@ const HighQualityStorageBoxes = () => {
         </div>
 
         <div>
-          <img src={Map} className=""></img>
+          <img src={Map} className="w-full h-auto object-cover"></img>
         </div>
       </>
     );
