@@ -1,8 +1,8 @@
-import Insurance from "../../../assets/isurance.png"
-import Access from "../../../assets/access.png"
+import Insurance from "../../../assets/Insurance.jpg"
+import Access from "../../../assets/Access.jpg"
 
-import Insurantransport from "../../../assets/Insurantransport.png";
-import Insurance2 from "../../../assets/insurance2.png";
+import Insurantransport from "../../../assets/Insurantransport.jpg";
+import Insurance2 from "../../../assets/insurance2.jpg";
 const LocationSection = () => {
     return (
       <div className="my-10 px-2 lg:px-0">
