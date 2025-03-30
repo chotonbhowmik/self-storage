@@ -25,14 +25,14 @@ const BannerSection = () => {
 
           <div className="bg-white lg:rounded-full rounded-bl-[30px] rounded-br-[30px] rounded-tl-[30px] rounded-tr-[30px] max-w-4xl mx-auto p-6">
             <form className="w-full">
-              <div className="flex flex-wrap justify-between space-y-2 md:space-y-0 md:flex-row">
+              <div className="flex flex-wrap justify-between space-y-2 md:space-y-0 md:flex-row gap-5">
                 {/* LOCATION FIELD */}
-                <div className="relative z-0 w-full md:w-72 group border-b-2 lg:border-r-2 lg:border-b-0 border-slate-300 pb-1">
+                <div className="relative z-0 w-full md:w-72 group border-b-2 lg:border-r-2 lg:border-b-0 border-slate-300 pb-5 lg:pb-0">
                   <select
                     id="location"
                     name="location"
                     required
-                    className="peer block w-full appearance-none  bg-transparent px-4 pr-10 pt-4 pb-1 text-sm font-bold text-[#1942BB] focus:border-blue-600 focus:outline-none focus:ring-0"
+                    className="peer block w-full appearance-none  bg-transparent  pr-10 pt-4 pb-1 text-sm font-bold text-[#1942BB] focus:border-blue-600 focus:outline-none focus:ring-0"
                   >
                     <option value="1" selected>
                       Option 1
@@ -42,7 +42,7 @@ const BannerSection = () => {
                   </select>
                   <label
                     htmlFor="location"
-                    className="absolute text-sm text-gray-500 duration-300 transform -translate-y-3 scale-75 top-1 left-4 z-0 origin-[0] peer-placeholder-shown:translate-y-2.5 peer-placeholder-shown:scale-100 peer-focus:scale-75 peer-focus:-translate-y-3 peer-focus:text-blue-600"
+                    className="absolute text-sm text-gray-500 duration-300 transform -translate-y-3 scale-75 top-1 left-0 z-0 origin-[0] peer-placeholder-shown:translate-y-2.5 peer-placeholder-shown:scale-100 peer-focus:scale-75 peer-focus:-translate-y-3 peer-focus:text-blue-600"
                   >
                     CHOOSE LOCATION
                   </label>
@@ -54,7 +54,7 @@ const BannerSection = () => {
                     id="location"
                     name="location"
                     required
-                    className="peer block w-full appearance-none  lg:border-r-2 lg:border-b-0 border-slate-300 bg-transparent px-4 pr-10 pt-4 pb-1 text-sm font-bold text-[#1942BB] focus:border-blue-600 focus:outline-none focus:ring-0"
+                    className="peer block w-full appearance-none  lg:border-r-2 lg:border-b-0 border-slate-300 bg-transparent  pr-10 pt-4 pb-1 text-sm font-bold text-[#1942BB] focus:border-blue-600 focus:outline-none focus:ring-0"
                   >
                     <option value="1" selected>
                       Option 1
@@ -64,7 +64,7 @@ const BannerSection = () => {
                   </select>
                   <label
                     htmlFor="location"
-                    className="absolute text-sm text-gray-500 duration-300 transform -translate-y-3 scale-75 top-1 left-4 z-0 origin-[0] peer-placeholder-shown:translate-y-2.5 peer-placeholder-shown:scale-100 peer-focus:scale-75 peer-focus:-translate-y-3 peer-focus:text-blue-600"
+                    className="absolute text-sm text-gray-500 duration-300 transform -translate-y-3 scale-75 top-1 left-0 z-0 origin-[0] peer-placeholder-shown:translate-y-2.5 peer-placeholder-shown:scale-100 peer-focus:scale-75 peer-focus:-translate-y-3 peer-focus:text-blue-600"
                   >
                     CHOOSE UNIT
                   </label>

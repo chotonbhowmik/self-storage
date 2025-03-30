@@ -12,7 +12,7 @@ const PricingSection = () => {
           </p>
         </div>
 
-        <div className="flex flex-col lg:flex-row gap-4">
+        <div className="flex flex-col lg:flex-row gap-4 px-5 lg:px-0">
           {/* card 1 */}
           <div className=" w-full mx-auto">
             <div className="bg-[#274EFF] w-80 rounded-tl-[30px] rounded-tr-[30px] text-white mx-auto text-center">

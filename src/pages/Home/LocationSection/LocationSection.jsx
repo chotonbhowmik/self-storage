@@ -1,6 +1,5 @@
 import Insurance from "../../../assets/Insurance.jpg"
 import Access from "../../../assets/Access.jpg"
-
 import Insurantransport from "../../../assets/Insurantransport.jpg";
 import Insurance2 from "../../../assets/insurance2.jpg";
 const LocationSection = () => {
