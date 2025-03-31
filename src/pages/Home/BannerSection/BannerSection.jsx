@@ -54,7 +54,7 @@ const BannerSection = () => {
                     id="location"
                     name="location"
                     required
-                    className="peer block w-full appearance-none  lg:border-r-2 lg:border-b-0 border-slate-300 bg-transparent  pr-10 pt-4 pb-1 text-sm font-bold text-[#1942BB] focus:border-blue-600 focus:outline-none focus:ring-0"
+                    className="peer block w-full appearance-none   bg-transparent  pr-10 pt-4 pb-1 text-sm font-bold text-[#1942BB] focus:border-blue-600 focus:outline-none focus:ring-0"
                   >
                     <option value="1" selected>
                       Option 1
@@ -73,10 +73,10 @@ const BannerSection = () => {
 
                 {/* BUTTON */}
                 <div className="w-full md:w-auto flex justify-center md:justify-start">
-                  <button className="lg:max-w-[250px] w-full rounded-full bg-[#1C2253] text-white py-3 px-8 mt-4 md:mt-0">
+                  <button className="relative  lg:w-[200px] w-[300px] rounded-full bg-[#1C2253] text-white py-3 px-8 mt-4 md:mt-0 text-center font-bold">
                     Find Your Unit
                     <i
-                      className="fa fa-long-arrow-right ml-2"
+                      className="fa fa-long-arrow-right absolute right-6 top-1/2 -translate-y-1/2"
                       aria-hidden="true"
                     ></i>
                   </button>
