@@ -1,4 +1,4 @@
-import FooterLogo from "../../assets/footerlogo.png"
+import FooterLogo from "../../assets/footer-logo.webp"
 import Facebook from "../../assets/Facebook.png";
 import Instagram from "../../assets/instagram.png";
 const Footer = () => {
@@ -36,7 +36,7 @@ const Footer = () => {
               <h2 className="text-[#0C094E] font-bold text-[28px]">Kontakt</h2>
               <div className="pt-5 space-y-2">
                 <p className="text-[18px] font-normal text-[#0C094E]">
-                  Tel: 🇦🇹 +43 699 177 22 661
+                  Tel: 🇦🇹 +436764931547
                 </p>
                 <p className="text-[18px] font-normal text-[#0C094E]">
                   office@safestore.at

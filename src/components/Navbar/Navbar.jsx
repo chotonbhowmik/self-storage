@@ -44,7 +44,7 @@ const Navbar = () => {
                   onClick={() => handleScroll("pricing")}
                   className="text-[#0C094E] font-bold text-[18px] active:text-[#0C094E]"
                 >
-                  Prices
+                  Preise
                 </button>
               </li>
               <li>
@@ -52,7 +52,7 @@ const Navbar = () => {
                   onClick={() => handleScroll("howItWorks")}
                   className="text-[#0C094E] font-bold text-[18px] active:text-[#0C094E]"
                 >
-                  How it Works
+                  Wie es funktioniert
                 </button>
               </li>
               <li>
@@ -68,7 +68,7 @@ const Navbar = () => {
                   onClick={() => handleScroll("spaceCalculator")}
                   className="text-[#0C094E] font-bold text-[18px] active:text-[#0C094E]"
                 >
-                  Space Calculator
+                  Raumfahrt-Rechner
                 </button>
               </li>
               <li>
@@ -76,20 +76,20 @@ const Navbar = () => {
                   onClick={() => handleScroll("contact")}
                   className="text-[#0C094E] font-bold text-[18px] active:text-[#0C094E]"
                 >
-                  Contact
+                  Kontakt
                 </button>
               </li>
 
               <div className="mt-4 space-y-2 ">
                 <a className="btn text-[#231ADF] border-[#231ADF] bg-transparent hover:bg-[#231ADF] hover:text-white rounded-full font-bold text-[18px] px-5 py-3">
-                  <i className="fa fa-phone" aria-hidden="true"></i> 0699 177 22
-                  661
+                  <i className="fa fa-phone" aria-hidden="true"></i>{" "}
+                  +436764931547
                 </a>
                 <a className="btn text-[#231ADF] border-[#231ADF] bg-transparent hover:bg-[#231ADF] hover:text-white rounded-full font-bold text-[18px] px-5 py-3">
                   Register
                 </a>
                 <a className="btn text-[#fff] border-[#231ADF] hover:bg-[#231ADF] hover:text-white rounded-full font-bold text-[18px] px-5 py-3 bg-[#231ADF] ml-2">
-                  Book
+                  Buchen Sie
                   <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
                 </a>
               </div>
@@ -105,7 +105,7 @@ const Navbar = () => {
                 onClick={() => handleScroll("pricing")}
                 className="text-[#0C094E] font-bold text-[18px]"
               >
-                Prices
+                Preise
               </button>
             </li>
             <li>
@@ -113,7 +113,7 @@ const Navbar = () => {
                 onClick={() => handleScroll("howItWorks")}
                 className="text-[#0C094E] font-bold text-[18px]"
               >
-                How It Works
+                Wie es funktioniert
               </button>
             </li>
 
@@ -130,7 +130,7 @@ const Navbar = () => {
                 onClick={() => handleScroll("spaceCalculator")}
                 className="text-[#0C094E] font-bold text-[18px]"
               >
-                Space Calculator
+                Raumfahrt-Rechner
               </button>
             </li>
             <li>
@@ -138,7 +138,7 @@ const Navbar = () => {
                 onClick={() => handleScroll("contact")}
                 className="text-[#0C094E] font-bold text-[18px]"
               >
-                Contact
+                Kontakt
               </button>
             </li>
           </ul>
@@ -147,13 +147,13 @@ const Navbar = () => {
         {/* Right: Desktop Buttons */}
         <div className="hidden lg:flex gap-4 items-center">
           <a className="btn text-[#231ADF] border-[#231ADF] bg-transparent hover:bg-[#231ADF] hover:text-white rounded-full font-bold text-[18px] px-5 py-3">
-            <i className="fa fa-phone" aria-hidden="true"></i> 0699 177 22 661
+            <i className="fa fa-phone" aria-hidden="true"></i> +436764931547
           </a>
           <a className="btn text-[#231ADF] border-[#231ADF] bg-transparent hover:bg-[#231ADF] hover:text-white rounded-full font-bold text-[18px] px-5 py-3">
             Register
           </a>
           <a className="btn text-[#fff] border-[#231ADF] hover:bg-[#231ADF] hover:text-white rounded-full font-bold text-[18px] px-5 py-3 bg-[#231ADF]">
-            Book
+            Buchen Sie
             <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
           </a>
         </div>
