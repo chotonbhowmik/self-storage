@@ -20,29 +20,32 @@ const HighQualityStorageBoxes = () => {
                 <div className="">
                   <div className="flex flex-row items-center mt-5">
                     <img src={Quality} alt="Quality" />
-                    <h3 className="ml-2">
+                    <h3 className="ml-2 dark:text-black">
                       Jederzeit lagern - 24 Stunden am Tag geöffnet
                     </h3>
                   </div>
                   <div className="flex flex-row items-center mt-5">
                     <img src={Quality} alt="Quality" />
-                    <h3 className="ml-2">Videoüberwachung</h3>
+                    <h3 className="ml-2 dark:text-black">Videoüberwachung</h3>
                   </div>
                 </div>
                 <div className="">
                   <div className="flex flex-row items-center mt-5">
                     <img src={Quality} alt="Quality" />
-                    <h3 className="ml-2"> Einfach online buchen</h3>
+                    <h3 className="ml-2 dark:text-black">
+                      {" "}
+                      Einfach online buchen
+                    </h3>
                   </div>
                   <div className="flex flex-row items-center mt-5">
                     <img src={Quality} alt="Quality" />
-                    <h3 className="ml-2">versichert</h3>
+                    <h3 className="ml-2 dark:text-black">versichert</h3>
                   </div>
                 </div>
                 <div className="">
                   <div className="flex flex-row items-center mt-5 ">
                     <img src={Quality} alt="Quality" />
-                    <h3 className="ml-2">
+                    <h3 className="ml-2 dark:text-black">
                       Ein-und Ausladen unter trockenen Bedingungen
                     </h3>
                   </div>
