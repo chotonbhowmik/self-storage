@@ -133,7 +133,7 @@ const Testimonial = () => {
                 </figcaption>
 
                 <p className="font-bold text-[20px] text-[#0C094E] mt-2">
-                  insgesamt 14 Google-Bewertungen
+                  insgesamt 19 Google-Bewertungen
                 </p>
 
                 <img src={Google} alt="Google Logo" className="mt-2" />
