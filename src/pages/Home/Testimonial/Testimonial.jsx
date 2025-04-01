@@ -145,7 +145,7 @@ const Testimonial = () => {
                 {/*    <!-- Slides --> */}
                 <div className="overflow-hidden" data-glide-el="track">
                   <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-visible p-0">
-                    <li>
+                    <li className="w-full lg:w-[220px]">
                       <div className="overflow-hidden   rounded shadow-2xl text-slate-500 shadow-slate-200">
                         <div className="relative p-6">
                           <figure className="relative z-10">
