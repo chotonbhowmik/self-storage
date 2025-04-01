@@ -11,7 +11,7 @@ const FastEasy = () => {
           <h2 className="font-bold text-[25px] lg:text-[40px] leading[36px] text-[#fff] text-center">
             Schnell. Einfach. Rund um die Uhr.
           </h2>
-          <p className="font-bold text-[25px] lg:text-[40px] leading[36px] text-[#0C094E] text-center ">
+          <p className="font-bold text-[25px] lg:text-[40px] leading[36px] text-white text-center ">
             In nur 3 Minuten zu Ihrem eigenen Lagerraum:
           </p>
         </div>

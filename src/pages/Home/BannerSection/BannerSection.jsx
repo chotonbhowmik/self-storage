@@ -1,4 +1,4 @@
-import BannerBg from "../../../assets/banner.jpg";
+import BannerBg from "../../../assets/banner-bg.webp";
 // import star from "../../../assets/start.png";
 import number from "../../../assets/24.png";
 const BannerSection = () => {
