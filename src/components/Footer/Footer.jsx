@@ -67,7 +67,7 @@ const Footer = () => {
                 <div className="flex flex-row gap-2">
                   <img src={Instagram}></img>
                   <p className="text-[18px] font-normal text-[#0C094E]">
-                    Space Calculator
+                    Platzrechner
                   </p>
                 </div>
               </div>
