@@ -73,7 +73,7 @@ const SafeSection = () => {
           <div className="flex flex-row gap-2">
             <img src={correct} className="w-[30px] h-[25px] object-fit"></img>
             <p className="text-[#EEEEEE] font-bold text[20px]">
-              Jederzeitiger Zugang
+              Zugang jederzeit
             </p>
           </div>
 

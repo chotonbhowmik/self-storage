@@ -16,7 +16,7 @@ const Testimonial = () => {
       const slider = new Glide(".glide-01", {
         type: "carousel",
         focusAt: "center",
-        perView: 2,
+        perView: 1,
         autoplay: 3000,
         animationDuration: 700,
         gap: 24,
@@ -2570,7 +2570,7 @@ const Testimonial = () => {
             <div className="flex flex-row gap-2">
               <img src={correct} className="w-[30px] h-[25px] object-fit"></img>
               <p className="text-[#EEEEEE] font-bold text[20px]">
-                Jederzeitiger Zugang
+                Zugang jederzeit
               </p>
             </div>
 
