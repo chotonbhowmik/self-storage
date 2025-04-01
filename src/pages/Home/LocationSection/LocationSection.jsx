@@ -18,7 +18,7 @@ const LocationSection = () => {
           <div className="overflow-hidden relative bg-white rounded text-slate-500 shadow-slate-200">
             <img src={Insurance} className="w-full h-auto" />
             {/* Text Overlay */}
-            <div className="absolute bottom-0 left-0 w-full bg-white/80 p-4">
+            <div className="absolute bottom-0 left-0 w-full bg-white/80 p-4 h-[130px]">
               <h3 className="mb-2 text-[24px] font-semibold text-[#231ADF]">
                 Lastenaufzug
               </h3>
@@ -32,7 +32,7 @@ const LocationSection = () => {
           <div className="overflow-hidden relative bg-white rounded text-slate-500 shadow-slate-200">
             <img src={Access} className="w-full h-auto" />
             {/* Text Overlay */}
-            <div className="absolute bottom-0 left-0 w-full bg-white/80 p-4">
+            <div className="absolute bottom-0 left-0 w-full bg-white/80 p-4 h-[130px]">
               <h3 className="mb-2 text-[24px] font-semibold text-[#231ADF]">
                 Zugangskontrolle
               </h3>
@@ -46,7 +46,7 @@ const LocationSection = () => {
           <div className="overflow-hidden relative bg-white rounded text-slate-500 shadow-slate-200">
             <img src={Insurantransport} className="w-full h-auto" />
             {/* Text Overlay */}
-            <div className="absolute bottom-0 left-0 w-full bg-white/80 p-4">
+            <div className="absolute bottom-0 left-0 w-full bg-white/80 p-4 h-[130px]">
               <h3 className="mb-2 text-[24px] font-semibold text-[#231ADF]">
                 Breite Gänge
               </h3>
@@ -60,7 +60,7 @@ const LocationSection = () => {
           <div className="overflow-hidden relative bg-white rounded text-slate-500 shadow-slate-200">
             <img src={Insurance2} className="w-full h-auto" />
             {/* Text Overlay */}
-            <div className="absolute bottom-0 left-0 w-full bg-white/80 p-4">
+            <div className="absolute bottom-0 left-0 w-full bg-white/80 p-4 h-[130px]">
               <h3 className="mb-2 text-[24px] font-semibold text-[#231ADF]">
                 Versicherung
               </h3>

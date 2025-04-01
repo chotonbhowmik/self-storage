@@ -27,7 +27,7 @@ const Testimonial = () => {
         },
         breakpoints: {
           1024: {
-            perView:1,
+            perView:2,
           },
           640: {
             perView: 1,
@@ -155,8 +155,8 @@ const Testimonial = () => {
                                   src={hans}
                                   alt="user name"
                                   title="user name"
-                                  width="48"
-                                  height="48"
+                                  width="45"
+                                  height="45"
                                   className="max-w-full rounded-full shrink-0"
                                 />
                                 <div className="flex flex-col gap-1">
