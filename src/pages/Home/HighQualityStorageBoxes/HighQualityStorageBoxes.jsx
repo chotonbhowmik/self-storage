@@ -65,7 +65,15 @@ const HighQualityStorageBoxes = () => {
         </div>
 
         <div>
-          <img src={Map} className="w-full h-auto object-cover"></img>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2659.117291577699!2d16.386606076266176!3d48.204356671250956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d07726938c4ff%3A0xd8f69b2a44137d6a!2sWeyrgasse%209%2C%201030%20Wien%2C%20%C3%96sterreich!5e0!3m2!1sde!2sbd!4v1743519907279!5m2!1sde!2sbd"
+            width="100%"
+            height="450"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </>
     );
