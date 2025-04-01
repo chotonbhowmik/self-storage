@@ -34,7 +34,7 @@ const ContactForm = () => {
           <h2 className="font-bold text-[25px] lg:text-[40px] leading-[36px] text-[#fff] text-center">
             Schreiben Sie uns!
           </h2>
-          <p className="font-bold text-[25px] lg:text-[40px] leading-[36px] text-[#0C094E] text-center pt-5">
+          <p className="font-bold text-[25px] lg:text-[40px] leading-[36px] text-white text-center pt-5">
             Wir werden so schnell wie möglich antworten.
           </p>
         </div>
