@@ -8,7 +8,7 @@ const SafeSection = () => {
     <div className="py-10">
       <div className="pb-14">
         <h2 className="font-bold text-[25px] lg:text-[40px] leading[36px] text-[#231ADF] text-center dark:bg-black dark:text-white">
-          Sicher, hochwertig, schnell
+          Sicher, hochwertig, schnell 01
         </h2>
         <p className="font-bold text-[25px] lg:text-[40px] leading[36px] text-[#0C094E] text-center ">
           Lagerraum für Ihren Platzbedarf
