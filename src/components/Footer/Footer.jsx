@@ -13,10 +13,10 @@ const Footer = () => {
               <h2 className="text-[#0C094E] font-bold text-[28px]">Seiten</h2>
               <div className="pt-5 space-y-2">
                 <p className="text-[18px] font-normal text-[#0C094E]">
-                  Raumfahrt-Rechner
+                  Platzrechner
                 </p>
                 <p className="text-[18px] font-normal text-[#0C094E]">
-                  Mortara-Platz
+                  Landstrasse
                 </p>
                 <p className="text-[18px] font-normal text-[#0C094E]">
                   Lagerraum mieten
@@ -42,13 +42,13 @@ const Footer = () => {
                   office@safestore.at
                 </p>
                 <p className="text-[18px] font-normal text-[#0C094E]">
-                  Mortara-Platz
+                  HKW GmbH
                 </p>
                 <p className="text-[18px] font-normal text-[#0C094E]">
-                  Dresdnerstrasse 122
+                  Weyrgasse 9
                 </p>
                 <p className="text-[18px] font-normal text-[#0C094E]">
-                  1200 Wien, Österreich
+                  1030 Wien Österreich
                 </p>
               </div>
             </div>

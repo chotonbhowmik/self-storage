@@ -10,10 +10,10 @@ const HighQualityStorageBoxes = () => {
           <div className="flex flex-col lg:flex-row items-center">
             <div>
               <h2 className="font-bold text-[25px] lg:text-[40px] leading[36px] text-[#231ADF] text-left pl-2 lg:pl-0">
-                Hochwertige Aufbewahrungsboxen
+                Hochwertige Lagerboxen
               </h2>
               <p className="font-bold text-[25px] lg:text-[40px] leading[36px] text-[#0C094E] text-left pl-2 lg:pl-0">
-                Zufriedenstellung garantiert!
+                Zufriedenheit garantiert!
               </p>
 
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-0 pl-3 lg:pl-0">
@@ -21,7 +21,7 @@ const HighQualityStorageBoxes = () => {
                   <div className="flex flex-row items-center mt-5">
                     <img src={Quality} alt="Quality" />
                     <h3 className="ml-2">
-                      Jederzeit einkaufen - 24 Stunden am Tag geöffnet
+                      Jederzeit lagern - 24 Stunden am Tag geöffnet
                     </h3>
                   </div>
                   <div className="flex flex-row items-center mt-5">
@@ -43,7 +43,7 @@ const HighQualityStorageBoxes = () => {
                   <div className="flex flex-row items-center mt-5 ">
                     <img src={Quality} alt="Quality" />
                     <h3 className="ml-2">
-                      Be- und Entladen unter trockenen Bedingungen
+                      Ein-und Ausladen unter trockenen Bedingungen
                     </h3>
                   </div>
                 </div>

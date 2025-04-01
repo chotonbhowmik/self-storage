@@ -20,7 +20,7 @@ const BannerSection = () => {
           </div>
           <img src={number} className="object-cover"></img>
           <h1 className="mb-5 text-[30px] lg:text-[72px]  font-bold text-[#FFFFFF]  leading-[40px] lg:leading-[80px]">
-            Sorgenfrei Lagerraum mieten in Wien-Brigittenau
+            Sorgenfrei Lagerraum mieten in Wien-Landstrasse
           </h1>
 
           <div className="bg-white lg:rounded-full rounded-bl-[30px] rounded-br-[30px] rounded-tl-[30px] rounded-tr-[30px] max-w-4xl mx-auto p-6">

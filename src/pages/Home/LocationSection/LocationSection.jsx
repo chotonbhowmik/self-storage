@@ -7,7 +7,7 @@ const LocationSection = () => {
       <div className="my-10 px-2 lg:px-0">
         <div>
           <h2 className="font-bold text-[25px] lg:text-[40px] leading[36px] text-[#231ADF] text-center">
-            Lagerung im Safe Store
+            Lagerung in der FoxBox
           </h2>
           <p className="font-bold text-[25px] lg:text-[40px] leading[36px] text-[#0C094E] text-center ">
             Unser Standort in Wien-Brigittenau:
@@ -20,10 +20,11 @@ const LocationSection = () => {
             {/*  <!-- Body--> */}
             <div className="p-6">
               <h3 className="mb-4 text-[24px] font-semibold text-[#231ADF]">
-                Versicherung
+                Lastenaufzug
               </h3>
               <p className="text-[#0C094E] text-[18px] font-normal">
-                Ihre eingelagerten Gegenstände sind bis zu 5.000 € versichert.
+                Der Lastenaufzug transportiert schwere Güter zuverlässig
+                zwischen den Etagen des Lagers.
               </p>
             </div>
           </div>
@@ -47,10 +48,11 @@ const LocationSection = () => {
             {/*  <!-- Body--> */}
             <div className="p-6">
               <h3 className="mb-4 text-[24px] font-semibold text-[#231ADF] text-left">
-                Versicherungstransporthilfence
+                Breite Gänge
               </h3>
               <p className="text-[#0C094E] text-[18px] font-normal">
-                Ihre eingelagerten Gegenstände sind bis zu 5.000 € versichert.
+                Der breite Gang bietet ausreichend Platz für den reibungslosen
+                Transport von Waren.
               </p>
             </div>
           </div>

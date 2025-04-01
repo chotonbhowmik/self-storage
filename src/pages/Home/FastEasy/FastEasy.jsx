@@ -21,11 +21,11 @@ const FastEasy = () => {
             {/*  <!-- Body--> */}
             <div className="p-6">
               <h3 className="mb-4 text-[24px] font-semibold text-[#fff]">
-                Speicherplatz auswählen
+                Lagerraum auswählen
               </h3>
               <p className="text-[#fff] text-[18px] font-normal">
-                Mit nur wenigen Klicks finden Sie den passenden Speicherplatz
-                bei SafeStore.
+                Mit nur wenigen Klicks finden Sie den passenden Lagerraum bei
+                FoxBox.
               </p>
             </div>
           </div>
@@ -39,7 +39,7 @@ const FastEasy = () => {
               </h3>
               <p className="text-[#fff] text-[18px] font-normal">
                 Geben Sie Ihre Kontaktinformationen und Ihre Kreditkarte ein -
-                fertig! Ihr Speicherplatz Platz ist bereit
+                fertig! Ihr Lagerraum Platz ist bereit
               </p>
             </div>
           </div>
@@ -53,7 +53,7 @@ const FastEasy = () => {
               </h3>
               <p className="text-[#fff] text-[18px] font-normal">
                 Die Zugangscodes und eine Wegbeschreibung werden am Tag des
-                Einzugs per E-Mail verschickt. Einzugs.
+                Einzugs per E-Mail verschickt. 
               </p>
             </div>
           </div>

@@ -52,7 +52,7 @@ const Navbar = () => {
                   onClick={() => handleScroll("howItWorks")}
                   className="text-[#0C094E] font-bold text-[18px] active:text-[#0C094E]"
                 >
-                  Wie es funktioniert
+                  So geht's
                 </button>
               </li>
               <li>
@@ -68,7 +68,7 @@ const Navbar = () => {
                   onClick={() => handleScroll("spaceCalculator")}
                   className="text-[#0C094E] font-bold text-[18px] active:text-[#0C094E]"
                 >
-                  Raumfahrt-Rechner
+                  Platzrechner
                 </button>
               </li>
               <li>
@@ -86,7 +86,7 @@ const Navbar = () => {
                   +436764931547
                 </a>
                 <a className="btn text-[#231ADF] border-[#231ADF] bg-transparent hover:bg-[#231ADF] hover:text-white rounded-full font-bold text-[18px] px-5 py-3">
-                  Register
+                  Anmelden
                 </a>
                 <a className="btn text-[#fff] border-[#231ADF] hover:bg-[#231ADF] hover:text-white rounded-full font-bold text-[18px] px-5 py-3 bg-[#231ADF] ml-2">
                   Buchen Sie
@@ -113,7 +113,7 @@ const Navbar = () => {
                 onClick={() => handleScroll("howItWorks")}
                 className="text-[#0C094E] font-bold text-[18px]"
               >
-                Wie es funktioniert
+                So geht's
               </button>
             </li>
 
@@ -130,7 +130,7 @@ const Navbar = () => {
                 onClick={() => handleScroll("spaceCalculator")}
                 className="text-[#0C094E] font-bold text-[18px]"
               >
-                Raumfahrt-Rechner
+                Platzrechner
               </button>
             </li>
             <li>
@@ -150,7 +150,7 @@ const Navbar = () => {
             <i className="fa fa-phone" aria-hidden="true"></i> +436764931547
           </a>
           <a className="btn text-[#231ADF] border-[#231ADF] bg-transparent hover:bg-[#231ADF] hover:text-white rounded-full font-bold text-[18px] px-5 py-3">
-            Register
+            Anmelden
           </a>
           <a className="btn text-[#fff] border-[#231ADF] hover:bg-[#231ADF] hover:text-white rounded-full font-bold text-[18px] px-5 py-3 bg-[#231ADF]">
             Buchen Sie

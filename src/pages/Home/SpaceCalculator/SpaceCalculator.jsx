@@ -60,7 +60,7 @@ const SpaceCalculator = () => {
       {/* Title Section */}
       <div className="bg-[#F8F8F8] py-10">
         <h2 className="font-bold text-[25px] lg:text-[40px] leading-[36px] text-[#231ADF] text-center">
-          Raumfahrt-Rechner
+          Platzrechner
         </h2>
         <p className="font-bold text-[25px] lg:text-[40px] leading-[36px] text-[#0C094E] text-center pt-5">
           Welche Box passt?

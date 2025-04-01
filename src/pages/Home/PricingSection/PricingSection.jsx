@@ -32,7 +32,7 @@ const PricingSection = () => {
                   ></img>
                   <h4>
                     <span className="text-[18px] font-bold tracking-tighter  text-[#0C094E]">
-                      Kasten 1,5 - 1,9 m²
+                      box 1,5 - 1,9 m²
                     </span>
                     <br></br>
                     <span className="text-[18px] font-normal text-[#0C094E]">
@@ -61,7 +61,7 @@ const PricingSection = () => {
           {/* card 2 */}
           <div className=" w-full mx-auto">
             <div className="bg-[#274EFF] w-80 rounded-tl-[30px] rounded-tr-[30px] text-white mx-auto text-center">
-              <p className="text-[18px] font-normal">Only 4 units left!</p>
+              <p className="text-[18px] font-normal">Nur noch 4 Einheiten übrig!</p>
             </div>
             <div className=" bg-white rounded shadow-lg  text-slate-500 shadow-slate-200">
               <div className="flex flex-col justify-center text-center">
@@ -75,7 +75,7 @@ const PricingSection = () => {
                   ></img>
                   <h4>
                     <span className="text-[18px] font-bold tracking-tighter  text-[#0C094E]">
-                      Kasten 1,5 - 1,9 m²
+                      box 1,5 - 1,9 m²
                     </span>
                     <br></br>
                     <span className="text-[18px] font-normal text-[#0C094E]">
@@ -103,7 +103,7 @@ const PricingSection = () => {
           {/* card 3 */}
           <div className=" w-full mx-auto">
             <div className="bg-[#274EFF] w-80 rounded-tl-[30px] rounded-tr-[30px] text-white mx-auto text-center">
-              <p className="text-[18px] font-normal">Only 4 units left!</p>
+              <p className="text-[18px] font-normal">Nur noch 4 Einheiten übrig!</p>
             </div>
             <div className=" bg-white rounded shadow-lg  text-slate-500 shadow-slate-200">
               <div className="flex flex-col justify-center text-center">
@@ -117,7 +117,7 @@ const PricingSection = () => {
                   ></img>
                   <h4>
                     <span className="text-[18px] font-bold tracking-tighter  text-[#0C094E]">
-                      Kasten 1,5 - 1,9 m²
+                      box 1,5 - 1,9 m²
                     </span>
                     <br></br>
                     <span className="text-[18px] font-normal text-[#0C094E]">
@@ -147,7 +147,7 @@ const PricingSection = () => {
           {/* card 1 */}
           <div className=" w-full lg:w-[450px] ">
             <div className="bg-[#274EFF] w-80 rounded-tl-[30px] rounded-tr-[30px] text-white mx-auto text-center">
-              <p className="text-[18px] font-normal">Only 4 units left!</p>
+              <p className="text-[18px] font-normal">Nur noch 4 Einheiten übrig!</p>
             </div>
             <div className=" bg-white rounded shadow-lg  text-slate-500 shadow-slate-200">
               <div className="flex flex-col justify-center text-center">
@@ -161,7 +161,7 @@ const PricingSection = () => {
                   ></img>
                   <h4>
                     <span className="text-[18px] font-bold tracking-tighter  text-[#0C094E]">
-                      Kasten 1,5 - 1,9 m²
+                      box 1,5 - 1,9 m²
                     </span>
                     <br></br>
                     <span className="text-[18px] font-normal text-[#0C094E]">
@@ -190,7 +190,7 @@ const PricingSection = () => {
           {/* card 2 */}
           <div className=" w-full lg:w-[450px] ">
             <div className="bg-[#274EFF] w-80 rounded-tl-[30px] rounded-tr-[30px] text-white mx-auto text-center">
-              <p className="text-[18px] font-normal">Only 4 units left!</p>
+              <p className="text-[18px] font-normal">Nur noch 4 Einheiten übrig!</p>
             </div>
             <div className=" bg-white rounded shadow-lg  text-slate-500 shadow-slate-200">
               <div className="flex flex-col justify-center text-center">
@@ -204,7 +204,7 @@ const PricingSection = () => {
                   ></img>
                   <h4>
                     <span className="text-[18px] font-bold tracking-tighter  text-[#0C094E]">
-                      Kasten 1,5 - 1,9 m²
+                      box 1,5 - 1,9 m²
                     </span>
                     <br></br>
                     <span className="text-[18px] font-normal text-[#0C094E]">
@@ -233,7 +233,7 @@ const PricingSection = () => {
         </div>
         <div className="bg-[#F5F5F5] my-10 text-center py-10 justify-center items-center mx-auto flex flex-col">
           <h5 className="text-[#0C094E] font-normal text-[24px]">
-            Aufbewahrungsboxen für kleine und große Platzprobleme:
+            Largerboxen für kleine und große Platzprobleme:
           </h5>
           <p className="text-[#231ADF] text-[18px] font-bold rounded-full border border-[#231ADF] w-[220px] mt-2">
             Alle Größen anzeigen
