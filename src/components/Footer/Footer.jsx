@@ -75,9 +75,15 @@ const Footer = () => {
           </div>
         </div>
         <hr className="my-3"></hr>
-        <p className="text-[#0C094E] font-normal text-[18px] text-center py-5">
-          Copyright © 2025 FOXBOX Selfstorage
-        </p>
+        <a
+          href="https://mo-media.at/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p className="text-[#0C094E] font-normal text-[18px] text-center py-5">
+            © 2025 WEBSITE DESIGN MO MEDIA
+          </p>
+        </a>
       </>
     );
 };

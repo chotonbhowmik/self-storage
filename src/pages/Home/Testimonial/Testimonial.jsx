@@ -44,7 +44,7 @@ const Testimonial = () => {
       <>
         <div className="max-w-7xl mx-auto">
           <h3 className="font-bold  text-[40px] lg:text-[40px] leading-[36px] text-[#231ADF] text-center pt-10 pb-5">
-            Kunden bewerten uns mit 4,9 Sternen
+            Kunden bewerten uns mit 5,0 Sternen
           </h3>
           <div className="flex flex-col lg:flex-row">
             <div className="w-full lg:w-1/3 flex flex-col items-center text-center">
