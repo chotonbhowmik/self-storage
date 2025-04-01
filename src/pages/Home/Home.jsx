@@ -49,7 +49,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
+    <div className="dark:bg-white">
       <BannerSection />
       <SafeSection />
       <div ref={pricingRef}>
