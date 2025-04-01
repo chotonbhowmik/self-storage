@@ -5,9 +5,9 @@ import correct from "../../../assets/correct.png"
 
 const SafeSection = () => {
   return (
-    <div className="py-10">
+    <div className="py-10 dark:bg-white">
       <div className="pb-14">
-        <h2 className="font-bold text-[25px] lg:text-[40px] leading[36px] text-[#231ADF] text-center  dark:text-white">
+        <h2 className="font-bold text-[25px] lg:text-[40px] leading[36px] text-[#231ADF] text-center  ">
           Sicher, hochwertig, schnell 01
         </h2>
         <p className="font-bold text-[25px] lg:text-[40px] leading[36px] text-[#0C094E] text-center ">
