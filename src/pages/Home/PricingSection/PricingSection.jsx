@@ -2,7 +2,7 @@ import priceImage from "../../../assets/price.png"
 
 const PricingSection = () => {
     return (
-      <div className="mx-auto max-w-7xl">
+      <div className="mx-auto max-w-7xl dark:bg-white">
         <div className="pb-14">
           <h2 className="font-bold text-[25px] lg:text-[40px] leading[36px] text-[#231ADF] text-center">
             Preise für Lagerräume

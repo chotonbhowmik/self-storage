@@ -6,7 +6,7 @@ import Map from "../../../assets/map.png"
 const HighQualityStorageBoxes = () => {
     return (
       <>
-        <div className="mx-auto max-w-7xl py-10">
+        <div className="mx-auto max-w-7xl py-10 dark:bg-white">
           <div className="flex flex-col lg:flex-row items-center">
             <div>
               <h2 className="font-bold text-[25px] lg:text-[40px] leading[36px] text-[#231ADF] text-left pl-2 lg:pl-0">

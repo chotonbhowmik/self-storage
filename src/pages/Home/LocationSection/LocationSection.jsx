@@ -4,7 +4,7 @@ import Insurantransport from "../../../assets/Insurantransport.jpg";
 import Insurance2 from "../../../assets/insurance2.jpg";
 const LocationSection = () => {
     return (
-      <div className="my-10 px-2 lg:px-0">
+      <div className="my-10 px-2 lg:px-0 dark:bg-white">
         <div>
           <h2 className="font-bold text-[25px] lg:text-[40px] leading[36px] text-[#231ADF] text-center">
             Lagerung in der FoxBox

@@ -42,7 +42,7 @@ const Testimonial = () => {
 
     return (
       <>
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto dark:bg-white">
           <h3 className="font-bold  text-[40px] lg:text-[40px] leading-[36px] text-[#231ADF] text-center pt-10 pb-5">
             Kunden bewerten uns mit 5,0 Sternen
           </h3>
