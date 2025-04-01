@@ -10,7 +10,7 @@ const LocationSection = () => {
             Lagerung in der FoxBox
           </h2>
           <p className="font-bold text-[25px] lg:text-[40px] leading[36px] text-[#0C094E] text-center ">
-            Unser Standort in Wien-Brigittenau:
+            Unser Standort in Wien-Landstrasse:
           </p>
         </div>
 
@@ -38,7 +38,7 @@ const LocationSection = () => {
               </h3>
               <p className="text-[#0C094E] text-[18px] font-normal">
                 Ihr PIN-Code wird Ihnen am Tag Ihres Einzugs per E-Mail
-                zugesandt. Einzug.
+                zugesandt.
               </p>
             </div>
           </div>

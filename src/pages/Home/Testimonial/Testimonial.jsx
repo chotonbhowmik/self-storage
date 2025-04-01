@@ -49,7 +49,7 @@ const Testimonial = () => {
           <div className="flex flex-col lg:flex-row">
             <div className="w-full lg:w-1/3 flex flex-col items-center text-center">
               <h3 className="font-semibold text-[32px] text-[#231ADF]">
-                Safe Store
+                FoxBox
               </h3>
 
               <div className="flex flex-col items-center">
@@ -133,7 +133,7 @@ const Testimonial = () => {
                 </figcaption>
 
                 <p className="font-bold text-[20px] text-[#0C094E] mt-2">
-                  insgesamt 365 Google-Bewertungen
+                  insgesamt 14 Google-Bewertungen
                 </p>
 
                 <img src={Google} alt="Google Logo" className="mt-2" />
@@ -2584,7 +2584,7 @@ const Testimonial = () => {
             <div className="flex flex-row gap-2">
               <img src={correct} className="w-[30px] h-[25px] object-fit"></img>
               <p className="text-[#EEEEEE] font-bold text[20px]">
-                Versicherte Einheiten
+                Versicherte Boxen
               </p>
             </div>
           </div>

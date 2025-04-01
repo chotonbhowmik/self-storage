@@ -74,7 +74,7 @@ const ContactForm = () => {
             <div className="w-full lg:w-1/2">
               <fieldset className="fieldset">
                 <legend className="fieldset-legend text-[24px] text-white pb-2">
-                  Telefonnummer (fakultativ)
+                  Telefonnummer
                 </legend>
                 <input
                   type="text"

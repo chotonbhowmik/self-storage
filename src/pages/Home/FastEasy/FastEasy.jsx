@@ -39,7 +39,7 @@ const FastEasy = () => {
               </h3>
               <p className="text-[#fff] text-[18px] font-normal">
                 Geben Sie Ihre Kontaktinformationen und Ihre Kreditkarte ein -
-                fertig! Ihr Lagerraum Platz ist bereit
+                fertig! Ihr Lagerraum ist bereit
               </p>
             </div>
           </div>

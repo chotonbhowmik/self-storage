@@ -23,8 +23,8 @@ const SafeSection = () => {
               Buchen, Einziehen, fertig!
             </h3>
             <p className="text-[#0C094E] text-[18px] font-normal">
-              Bei SafeStore bucht man Lagerraum online. Zutritt haben Sie sofort
-              & jederzeit.
+              Bei FoxBox bucht man Lagerraum online. Zutritt haben Sie sofort &
+              jederzeit.
             </p>
           </div>
         </div>
@@ -87,7 +87,7 @@ const SafeSection = () => {
           <div className="flex flex-row gap-2">
             <img src={correct} className="w-[30px] h-[25px] object-fit"></img>
             <p className="text-[#EEEEEE] font-bold text[20px]">
-              Versicherte Einheiten
+              Versicherte Boxen
             </p>
           </div>
         </div>

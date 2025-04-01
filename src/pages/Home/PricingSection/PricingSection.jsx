@@ -16,9 +16,7 @@ const PricingSection = () => {
           {/* card 1 */}
           <div className=" w-full mx-auto">
             <div className="bg-[#274EFF] w-80 rounded-tl-[30px] rounded-tr-[30px] text-white mx-auto text-center">
-              <p className="text-[18px] font-normal">
-                Nur noch 4 Einheiten übrig!
-              </p>
+              <p className="text-[18px] font-normal">Nur noch 4 Boxen übrig!</p>
             </div>
             <div className=" bg-white rounded shadow-lg  text-slate-500 shadow-slate-200">
               <div className="flex flex-col justify-center text-center">
@@ -61,7 +59,7 @@ const PricingSection = () => {
           {/* card 2 */}
           <div className=" w-full mx-auto">
             <div className="bg-[#274EFF] w-80 rounded-tl-[30px] rounded-tr-[30px] text-white mx-auto text-center">
-              <p className="text-[18px] font-normal">Nur noch 4 Einheiten übrig!</p>
+              <p className="text-[18px] font-normal">Nur noch 4 Boxen übrig!</p>
             </div>
             <div className=" bg-white rounded shadow-lg  text-slate-500 shadow-slate-200">
               <div className="flex flex-col justify-center text-center">
@@ -103,7 +101,7 @@ const PricingSection = () => {
           {/* card 3 */}
           <div className=" w-full mx-auto">
             <div className="bg-[#274EFF] w-80 rounded-tl-[30px] rounded-tr-[30px] text-white mx-auto text-center">
-              <p className="text-[18px] font-normal">Nur noch 4 Einheiten übrig!</p>
+              <p className="text-[18px] font-normal">Nur noch 4 Boxen übrig!</p>
             </div>
             <div className=" bg-white rounded shadow-lg  text-slate-500 shadow-slate-200">
               <div className="flex flex-col justify-center text-center">
@@ -147,7 +145,7 @@ const PricingSection = () => {
           {/* card 1 */}
           <div className=" w-full lg:w-[450px] ">
             <div className="bg-[#274EFF] w-80 rounded-tl-[30px] rounded-tr-[30px] text-white mx-auto text-center">
-              <p className="text-[18px] font-normal">Nur noch 4 Einheiten übrig!</p>
+              <p className="text-[18px] font-normal">Nur noch 4 Boxen übrig!</p>
             </div>
             <div className=" bg-white rounded shadow-lg  text-slate-500 shadow-slate-200">
               <div className="flex flex-col justify-center text-center">
@@ -190,7 +188,7 @@ const PricingSection = () => {
           {/* card 2 */}
           <div className=" w-full lg:w-[450px] ">
             <div className="bg-[#274EFF] w-80 rounded-tl-[30px] rounded-tr-[30px] text-white mx-auto text-center">
-              <p className="text-[18px] font-normal">Nur noch 4 Einheiten übrig!</p>
+              <p className="text-[18px] font-normal">Nur noch 4 Boxen übrig!</p>
             </div>
             <div className=" bg-white rounded shadow-lg  text-slate-500 shadow-slate-200">
               <div className="flex flex-col justify-center text-center">

@@ -39,7 +39,7 @@ const Footer = () => {
                   Tel: 🇦🇹 +436764931547
                 </p>
                 <p className="text-[18px] font-normal text-[#0C094E]">
-                  office@safestore.at
+                  office@foxbox-storage.at
                 </p>
                 <p className="text-[18px] font-normal text-[#0C094E]">
                   HKW GmbH

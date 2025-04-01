@@ -75,7 +75,7 @@ const BannerSection = () => {
                 {/* BUTTON */}
                 <div className="w-full md:w-auto flex justify-center md:justify-start">
                   <button className="relative  lg:w-[250px] w-[300px] rounded-full bg-[#1C2253] text-white py-3  mt-4 md:mt-0 text-center font-bold pr-3">
-                    Finden Sie Ihre Einheit
+                    Finden Sie Ihre Box
                     <i
                       className="fa fa-long-arrow-right absolute right-6 top-1/2 -translate-y-1/2 "
                       aria-hidden="true"
@@ -87,8 +87,8 @@ const BannerSection = () => {
           </div>
           <div className="bg-[#00C6AA] lg:max-w-[650px] max-w-[310px] rounded-bl-[30px] rounded-br-[30px] text-white mx-auto text-center">
             <p className="text-[16px] font-normal py-2">
-              Nur 10 Einheiten verfügbar. Ab 59:00 EUR pro Monat. Buchen Sie
-              Ihre Einheit jetzt
+              Nur 10 Box verfügbar. Ab 59:00 EUR pro Monat. Buchen Sie Ihre Box
+              jetzt
             </p>
           </div>
         </div>
