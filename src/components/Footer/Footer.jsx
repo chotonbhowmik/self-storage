@@ -1,4 +1,4 @@
-import FooterLogo from "../../assets/footer-logo.webp"
+import FooterLogo from "../../assets/footerlogo.webp";
 import Facebook from "../../assets/Facebook.png";
 import Instagram from "../../assets/instagram.png";
 const Footer = () => {

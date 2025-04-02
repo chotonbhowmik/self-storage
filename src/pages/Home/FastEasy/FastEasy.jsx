@@ -45,7 +45,7 @@ const FastEasy = () => {
           </div>
 
           <div className="overflow-hidden text-center  rounded  text-slate-500 shadow-slate-200">
-            <img src={Location} className="mx-auto h"></img>
+            <img src={Location} className="mx-auto h-[45px]"></img>
 
             <div className="p-6">
               <h3 className="mb-4 text-[24px] font-semibold text-[#fff]">

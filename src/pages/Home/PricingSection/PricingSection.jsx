@@ -22,7 +22,7 @@ const PricingSection = () => {
               <div className="flex flex-col justify-center text-center">
                 <header className="flex flex-col gap-6 p-6 text-slate-400">
                   <h3 className="text-[24px] font-semibold text-[#231ADF] text-center">
-                    Mini
+                    Locker
                   </h3>
                   <img
                     src={priceImage}
@@ -30,27 +30,29 @@ const PricingSection = () => {
                   ></img>
                   <h4>
                     <span className="text-[18px] font-bold tracking-tighter  text-[#0C094E]">
-                      box 1,5 - 1,9 m²
+                      box 1,00 m² | 1,00 m³
                     </span>
                     <br></br>
                     <span className="text-[18px] font-normal text-[#0C094E]">
-                      Platz für 40+ Boxen.
+                      brutto pro Monat
                     </span>
                   </h4>
 
                   <div>
-                    <h4 className="text-[40px] text-[#231ADF] font-normal">
-                      € 49
+                    <h4 className="text-[30px] text-[#231ADF] font-normal">
+                      29,90 EUR
                       <span className="text-[#0C094E] text-[18px] font-normal">
                         /Monat
                       </span>
                     </h4>
                   </div>
-                  <button className="border border-[#231ADF] rounded-full px-[30px] py-[10px]">
-                    <span className="text-[18px] font-bold text-[#231ADF]">
-                      Boxen buchen
-                    </span>
-                  </button>
+                  <a href="https://rent.foxbox-storage.at/de/rent?step=1">
+                    <button className="border border-[#231ADF] rounded-full px-[30px] py-[10px]">
+                      <span className="text-[18px] font-bold text-[#231ADF]">
+                        Boxen buchen
+                      </span>
+                    </button>
+                  </a>
                 </header>
               </div>
             </div>
@@ -65,7 +67,7 @@ const PricingSection = () => {
               <div className="flex flex-col justify-center text-center">
                 <header className="flex flex-col gap-6 p-6 text-slate-400">
                   <h3 className="text-[24px] font-semibold text-[#231ADF] text-center">
-                    Mini
+                    Locker XL
                   </h3>
                   <img
                     src={priceImage}
@@ -73,27 +75,30 @@ const PricingSection = () => {
                   ></img>
                   <h4>
                     <span className="text-[18px] font-bold tracking-tighter  text-[#0C094E]">
-                      box 1,5 - 1,9 m²
+                      box 1,00 m² | 1,70 m³
                     </span>
                     <br></br>
                     <span className="text-[18px] font-normal text-[#0C094E]">
-                      Platz für 40+ Boxen.
+                      brutto pro Monat
                     </span>
                   </h4>
 
                   <div>
-                    <h4 className="text-[40px] text-[#231ADF] font-normal">
-                      € 49
+                    <h4 className="text-[30px] text-[#231ADF] font-normal">
+                      34,90 EUR
                       <span className="text-[#0C094E] text-[18px] font-normal">
                         /Monat
                       </span>
                     </h4>
                   </div>
+                  <a href="https://rent.foxbox-storage.at/de/rent?step=1">
+                  
                   <button className="border border-[#231ADF] rounded-full px-[30px] py-[10px]">
                     <span className="text-[18px] font-bold text-[#231ADF]">
                       Boxen buchen
                     </span>
                   </button>
+                  </a>
                 </header>
               </div>
             </div>
@@ -107,7 +112,7 @@ const PricingSection = () => {
               <div className="flex flex-col justify-center text-center">
                 <header className="flex flex-col gap-6 p-6 text-slate-400">
                   <h3 className="text-[24px] font-semibold text-[#231ADF] text-center">
-                    Mini
+                    Small
                   </h3>
                   <img
                     src={priceImage}
@@ -115,27 +120,29 @@ const PricingSection = () => {
                   ></img>
                   <h4>
                     <span className="text-[18px] font-bold tracking-tighter  text-[#0C094E]">
-                      box 1,5 - 1,9 m²
+                      box (1-2m²)
                     </span>
                     <br></br>
                     <span className="text-[18px] font-normal text-[#0C094E]">
-                      Platz für 40+ Boxen.
+                      brutto pro Monat.
                     </span>
                   </h4>
 
                   <div>
-                    <h4 className="text-[40px] text-[#231ADF] font-normal">
-                      € 49
+                    <h4 className="text-[30px] text-[#231ADF] font-normal">
+                      VON 74,90 EUR
                       <span className="text-[#0C094E] text-[18px] font-normal">
                         /Monat
                       </span>
                     </h4>
                   </div>
-                  <button className="border border-[#231ADF] rounded-full px-[30px] py-[10px]">
-                    <span className="text-[18px] font-bold text-[#231ADF]">
-                      Boxen buchen
-                    </span>
-                  </button>
+                  <a href="https://rent.foxbox-storage.at/de/rent?step=1">
+                    <button className="border border-[#231ADF] rounded-full px-[30px] py-[10px]">
+                      <span className="text-[18px] font-bold text-[#231ADF]">
+                        Boxen buchen
+                      </span>
+                    </button>
+                  </a>
                 </header>
               </div>
             </div>
@@ -151,7 +158,7 @@ const PricingSection = () => {
               <div className="flex flex-col justify-center text-center">
                 <header className="flex flex-col gap-6 p-6 text-slate-400">
                   <h3 className="text-[24px] font-semibold text-[#231ADF] text-center">
-                    Mini
+                    Medium
                   </h3>
                   <img
                     src={priceImage}
@@ -159,27 +166,29 @@ const PricingSection = () => {
                   ></img>
                   <h4>
                     <span className="text-[18px] font-bold tracking-tighter  text-[#0C094E]">
-                      box 1,5 - 1,9 m²
+                      box (3-4m²)
                     </span>
                     <br></br>
                     <span className="text-[18px] font-normal text-[#0C094E]">
-                      Platz für 40+ Boxen.
+                      brutto pro Monat
                     </span>
                   </h4>
 
                   <div>
-                    <h4 className="text-[40px] text-[#231ADF] font-normal">
-                      € 49
+                    <h4 className="text-[30px] text-[#231ADF] font-normal">
+                      VON 202,23 EUR
                       <span className="text-[#0C094E] text-[18px] font-normal">
                         /Monat
                       </span>
                     </h4>
                   </div>
-                  <button className="border border-[#231ADF] rounded-full px-[30px] py-[10px]">
-                    <span className="text-[18px] font-bold text-[#231ADF]">
-                      Boxen buchen
-                    </span>
-                  </button>
+                  <a href="https://rent.foxbox-storage.at/de/rent?step=1">
+                    <button className="border border-[#231ADF] rounded-full px-[30px] py-[10px]">
+                      <span className="text-[18px] font-bold text-[#231ADF]">
+                        Boxen buchen
+                      </span>
+                    </button>
+                  </a>
                 </header>
               </div>
             </div>
@@ -194,7 +203,7 @@ const PricingSection = () => {
               <div className="flex flex-col justify-center text-center">
                 <header className="flex flex-col gap-6 p-6 text-slate-400">
                   <h3 className="text-[24px] font-semibold text-[#231ADF] text-center">
-                    Mini
+                    Large
                   </h3>
                   <img
                     src={priceImage}
@@ -202,27 +211,30 @@ const PricingSection = () => {
                   ></img>
                   <h4>
                     <span className="text-[18px] font-bold tracking-tighter  text-[#0C094E]">
-                      box 1,5 - 1,9 m²
+                      box (6-10m²)
                     </span>
                     <br></br>
                     <span className="text-[18px] font-normal text-[#0C094E]">
-                      Platz für 40+ Boxen.
+                      brutto pro Monat
                     </span>
                   </h4>
 
                   <div>
-                    <h4 className="text-[40px] text-[#231ADF] font-normal">
-                      € 49
+                    <h4 className="text-[30px] text-[#231ADF] font-normal">
+                      337,05 EUR
                       <span className="text-[#0C094E] text-[18px] font-normal">
                         /Monat
                       </span>
                     </h4>
                   </div>
+                  <a href="https://rent.foxbox-storage.at/de/rent?step=1">
+                  
                   <button className="border border-[#231ADF] rounded-full px-[30px] py-[10px]">
                     <span className="text-[18px] font-bold text-[#231ADF]">
                       Boxen buchen
                     </span>
                   </button>
+                  </a>
                 </header>
               </div>
             </div>
