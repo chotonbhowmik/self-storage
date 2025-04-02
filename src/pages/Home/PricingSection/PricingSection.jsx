@@ -46,7 +46,7 @@ const PricingSection = () => {
                       </span>
                     </h4>
                   </div>
-                  <a href="https://rent.foxbox-storage.at/de/rent?step=1">
+                  <a href="https://rent.foxbox-storage.at/de/">
                     <button className="border border-[#231ADF] rounded-full px-[30px] py-[10px]">
                       <span className="text-[18px] font-bold text-[#231ADF]">
                         Boxen buchen
@@ -91,7 +91,7 @@ const PricingSection = () => {
                       </span>
                     </h4>
                   </div>
-                  <a href="https://rent.foxbox-storage.at/de/rent?step=1">
+                  <a href="https://rent.foxbox-storage.at/de/">
                   
                   <button className="border border-[#231ADF] rounded-full px-[30px] py-[10px]">
                     <span className="text-[18px] font-bold text-[#231ADF]">
@@ -136,7 +136,7 @@ const PricingSection = () => {
                       </span>
                     </h4>
                   </div>
-                  <a href="https://rent.foxbox-storage.at/de/rent?step=1">
+                  <a href="https://rent.foxbox-storage.at/de/">
                     <button className="border border-[#231ADF] rounded-full px-[30px] py-[10px]">
                       <span className="text-[18px] font-bold text-[#231ADF]">
                         Boxen buchen
@@ -182,7 +182,7 @@ const PricingSection = () => {
                       </span>
                     </h4>
                   </div>
-                  <a href="https://rent.foxbox-storage.at/de/rent?step=1">
+                  <a href="https://rent.foxbox-storage.at/de/">
                     <button className="border border-[#231ADF] rounded-full px-[30px] py-[10px]">
                       <span className="text-[18px] font-bold text-[#231ADF]">
                         Boxen buchen
@@ -227,7 +227,7 @@ const PricingSection = () => {
                       </span>
                     </h4>
                   </div>
-                  <a href="https://rent.foxbox-storage.at/de/rent?step=1">
+                  <a href="https://rent.foxbox-storage.at/de/">
                   
                   <button className="border border-[#231ADF] rounded-full px-[30px] py-[10px]">
                     <span className="text-[18px] font-bold text-[#231ADF]">
