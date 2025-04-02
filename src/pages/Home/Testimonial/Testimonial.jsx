@@ -33,12 +33,6 @@ const testimonials = [
   { id: 3, name: "Fuat", image: fuat, text: "Faire Preise und super Service" },
 
   {
-    id: 7,
-    name: "Wolfgang Irbinger",
-    image: no,
-    text: "Ich habe schnell etwas gesucht, um nach meinem Umzug mein Piano zu lagern und dank foxbox schnell was gefunden. Der Eigentümer ist eine Naturgewalt, da sind alle Wertsache sicher. Mehr kann man sich von so einem Platz nicht wünschen .. Sieht man hier auch an den anderen Kommentaren.. Top Wiener Unternehmen",
-  },
-  {
     id: 8,
     name: "Tobias Schwarzendorfer",
     image: no,
@@ -73,6 +67,12 @@ const testimonials = [
     name: "Uras Aslan",
     image: no,
     text: "Sehr gut situierte Lagerfläche !",
+  },
+  {
+    id: 7,
+    name: "Wolfgang Irbinger",
+    image: no,
+    text: "Ich habe schnell etwas gesucht, um nach meinem Umzug mein Piano zu lagern und dank foxbox schnell was gefunden. Der Eigentümer ist eine Naturgewalt, da sind alle Wertsache sicher. Mehr kann man sich von so einem Platz nicht wünschen .. Sieht man hier auch an den anderen Kommentaren.. Top Wiener Unternehmen",
   },
   {
     id: 14,
