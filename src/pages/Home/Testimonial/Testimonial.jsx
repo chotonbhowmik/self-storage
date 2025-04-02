@@ -127,7 +127,7 @@ const Testimonial = () => {
           </div>
 
           {/* Swiper Slider Section */}
-          <div className="w-full lg:w-2/3 mt-5 lg:mt-0 h-full px-2 lg:px-0">
+          <div className="w-full lg:w-2/3 mt-5 lg:mt-0 h-full px-2 lg:px-0 ">
             <Swiper
               modules={[Pagination, Autoplay]}
               spaceBetween={24}
@@ -140,8 +140,8 @@ const Testimonial = () => {
               className="pb-10 h-full"
             >
               {testimonials.map((item) => (
-                <SwiperSlide key={item.id}>
-                  <div className="bg-[#E9E8FC80] shadow-lg rounded-[10px] p-5 text-center">
+                <SwiperSlide key={item.id} className="relative">
+                  <div className="p-5 text-center mb-10 bg-white shadow-md rounded-lg border border-gray-200 relative z-10">
                     <div className="flex flex-row gap-3 mt-4">
                       <div className="flex flex-row gap-1">
                         <i
@@ -170,16 +170,15 @@ const Testimonial = () => {
                           style={{ color: "#FBBF24", fontSize: "25px" }}
                         ></i>
                       </div>
-                      <img src={Badge}></img>
+                      <img src={Badge} alt="Badge" />
                     </div>
                     <p className="text-gray-600 mt-2 text-left">{item.text}</p>
-                    {/* <h4 className="text-xl font-semibold mt-3">{item.name}</h4> */}
                     <div className="flex flex-row justify-between pt-5">
                       <div className="flex items-center gap-4 text-sm text-emerald-500">
                         <img
                           src={item.image}
-                          alt="user name"
-                          title="user name"
+                          alt={item.name}
+                          title={item.name}
                           width="45"
                           height="45"
                           className="max-w-full rounded-full shrink-0"
@@ -188,15 +187,11 @@ const Testimonial = () => {
                           <span className="font-bold text-[#091725] text-[20px]">
                             {item.name}
                           </span>
-                          <cite className="text-base text-[#091725] text-[16px]">
-                            {/* <a href="http://www.microsoft.com">
-                                      CEO, Microsoft
-                                    </a> */}
-                          </cite>
+                          <cite className="text-base text-[#091725] text-[16px]"></cite>
                         </div>
                       </div>
                       <div>
-                        <img src={Google1}></img>
+                        <img src={Google1} alt="Google Review" />
                       </div>
                     </div>
                   </div>
