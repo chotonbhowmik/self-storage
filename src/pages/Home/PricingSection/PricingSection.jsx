@@ -47,7 +47,7 @@ const PricingSection = () => {
                     </h4>
                   </div>
                   <a href="https://rent.foxbox-storage.at/de/">
-                    <button className="border border-[#231ADF] rounded-full px-[30px] py-[10px]">
+                    <button className="border border-[#231ADF] rounded-full w-full px-[30px] py-[10px]">
                       <span className="text-[18px] font-bold text-[#231ADF]">
                         Boxen buchen
                       </span>
@@ -91,14 +91,15 @@ const PricingSection = () => {
                       </span>
                     </h4>
                   </div>
-                  <a href="https://rent.foxbox-storage.at/de/">
-                  
-                  <button className="border border-[#231ADF] rounded-full px-[30px] py-[10px]">
+
+                  <button
+                    className="border border-[#231ADF] rounded-full px-[30px] py-[10px] opacity-50 cursor-not-allowed"
+                    disabled
+                  >
                     <span className="text-[18px] font-bold text-[#231ADF]">
-                      Boxen buchen
+                      Nicht verfügbar
                     </span>
                   </button>
-                  </a>
                 </header>
               </div>
             </div>
@@ -137,7 +138,7 @@ const PricingSection = () => {
                     </h4>
                   </div>
                   <a href="https://rent.foxbox-storage.at/de/">
-                    <button className="border border-[#231ADF] rounded-full px-[30px] py-[10px]">
+                    <button className="border border-[#231ADF] rounded-full w-full px-[30px] py-[10px]">
                       <span className="text-[18px] font-bold text-[#231ADF]">
                         Boxen buchen
                       </span>
@@ -183,7 +184,7 @@ const PricingSection = () => {
                     </h4>
                   </div>
                   <a href="https://rent.foxbox-storage.at/de/">
-                    <button className="border border-[#231ADF] rounded-full px-[30px] py-[10px]">
+                    <button className="border border-[#231ADF] rounded-full w-full px-[30px] py-[10px]">
                       <span className="text-[18px] font-bold text-[#231ADF]">
                         Boxen buchen
                       </span>
@@ -228,12 +229,11 @@ const PricingSection = () => {
                     </h4>
                   </div>
                   <a href="https://rent.foxbox-storage.at/de/">
-                  
-                  <button className="border border-[#231ADF] rounded-full px-[30px] py-[10px]">
-                    <span className="text-[18px] font-bold text-[#231ADF]">
-                      Boxen buchen
-                    </span>
-                  </button>
+                    <button className="border border-[#231ADF] rounded-full w-full px-[30px] py-[10px]">
+                      <span className="text-[18px] font-bold text-[#231ADF]">
+                        Boxen buchen
+                      </span>
+                    </button>
                   </a>
                 </header>
               </div>
