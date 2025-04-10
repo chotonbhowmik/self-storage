@@ -243,7 +243,7 @@ const PricingSection = () => {
         </div>
         <div className="bg-[#F5F5F5] my-10 text-center py-10 justify-center items-center mx-auto flex flex-col">
           <h5 className="text-[#0C094E] font-normal text-[24px]">
-            Largerboxen für kleine und große Platzprobleme:
+            Lagerboxen für kleine und große Platzprobleme:
           </h5>
           <p className="text-[#231ADF] text-[18px] font-bold rounded-full border border-[#231ADF] w-[220px] mt-2">
             Alle Größen anzeigen

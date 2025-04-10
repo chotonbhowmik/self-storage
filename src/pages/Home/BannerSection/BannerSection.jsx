@@ -1,6 +1,6 @@
 import BannerBg from "../../../assets/banner-bg.webp";
 // import star from "../../../assets/start.png";
-import number from "../../../assets/24.png";
+import number from "../../../assets/Container.svg";
 const BannerSection = () => {
   return (
     <div
@@ -87,7 +87,7 @@ const BannerSection = () => {
           </div>
           <div className="bg-[#00C6AA] lg:max-w-[450px] max-w-[310px] rounded-bl-[30px] rounded-br-[30px] text-white mx-auto text-center">
             <p className="text-[16px] font-normal py-2">
-              Nur 10 Box verfügbar. Ab 59:00 EUR pro Monat. Buchen Sie Ihre Box
+              Nur 10 Box verfügbar. Ab 59,- EUR pro Monat. Buchen Sie Ihre Box
               jetzt
             </p>
           </div>
